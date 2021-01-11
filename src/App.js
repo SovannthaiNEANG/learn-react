@@ -6,6 +6,8 @@ import Shop from './components/pages/Shop'
 import About from './components/pages/About'
 import Login from './components/pages/Login'
 import Detail from './components/pages/Detail'
+import Resgister from './components/pages/Register'
+
 import React from 'react'
 import {
   BrowserRouter as Router,
@@ -33,6 +35,7 @@ export const App = () => {
           <Route path="/shop" component={Shop}></Route>
           <Route path="/about" component={About}></Route>
           <Route path="/login" component={Login}></Route>
+          <Route path="/register" component={Resgister}></Route>
           <Route path="/product-detail" component={Detail}></Route>
       </Switch>
     </>

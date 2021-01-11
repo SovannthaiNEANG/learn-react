@@ -19,6 +19,7 @@ function Detail() {
             <Card.Body>
               <Card.Title>Product Detail</Card.Title>
               <Card.Text>
+              <Card.Img variant="top" style={{ width: '18rem' }} src="http://askavy.com/demo/img/img-card.jpg" /><br></br>
                 Some quick example text to build on the card title and make up the bulk of
                 the card's content.
                 Some quick example text to build on the card title and make up the bulk of
