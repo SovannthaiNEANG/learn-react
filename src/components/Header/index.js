@@ -24,8 +24,8 @@ const Header = (props) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Link className="nav-link" to="/shop">Shop</Link>
-              <Link className="nav-link" to="/about">About Us</Link>
+              <Link className="nav-link" to="/shop">SHOP</Link>
+              <Link className="nav-link" to="/about">ABOUT US</Link>
             </Nav>
             <Form inline>
               <FormControl type="text" placeholder="Search" className="mr-sm-2" />
